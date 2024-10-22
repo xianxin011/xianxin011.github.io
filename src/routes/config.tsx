@@ -10,7 +10,7 @@ export enum Urls {
 }
 
 export const tabPage = ['/home', '/me', '/repay'];
-
+//@ts-ignore
 const tabsPage: { [key in string]: any } = {
     '/home': {
         path: '/app/home',

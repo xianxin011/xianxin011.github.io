@@ -1,1 +1,1 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts"],"version":"5.6.3"}
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/global/loading/index.tsx","./src/components/ui/button.tsx","./src/hooks/usecustomrouter.ts","./src/hooks/usereactrouterwatch.ts","./src/lib/utils.ts","./src/pages/404/index.tsx","./src/pages/home/index.tsx","./src/routes/routes.tsx","./src/routes/config.tsx","./src/routes/index.tsx","./src/utils/uuid.ts"],"version":"5.6.3"}
