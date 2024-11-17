@@ -1,0 +1,3 @@
+export enum PublicUrls {
+    HOME = '/',
+}

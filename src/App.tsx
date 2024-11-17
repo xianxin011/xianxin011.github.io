@@ -1,8 +1,13 @@
+import { Route, Switch } from 'react-router'
+import HomePage from './pages/home';
+import { PublicUrls } from './define/Urls';
 import './App.css'
 
 function App() {
   return (
-    <div>1234</div>
+    <Switch>
+      <Route component={HomePage} exact path={PublicUrls.HOME} />
+    </Switch>
   )
 }
 
