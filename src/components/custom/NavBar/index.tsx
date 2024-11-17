@@ -53,7 +53,7 @@ const components: { title: string; href: string; description: string }[] = [
 ]
 
 export default function NavBar(props: INavBarProps) {
-    const { scroll, onEachItemClick } = props;
+    const { onEachItemClick } = props;
     return (
         <NavigationMenu>
             <NavigationMenuList onClick={onEachItemClick}>

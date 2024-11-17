@@ -1,11 +1,11 @@
 import Footer from '@/components/layout/footer';
 import Header from '@/components/layout/header';
 import { Content } from '@/components/layout/content';
-import { useRef } from 'react';
+// import { useRef } from 'react';
 export interface IHomeProps { }
 
 export default function Home() {
-    const countUpRef = useRef(null);
+    // const countUpRef = useRef(null);
 
     return (
         <div>
